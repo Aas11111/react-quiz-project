@@ -1,5 +1,15 @@
 function Footer({ children }) {
-  return <footer>{children}</footer>;
+  return (
+    <footer
+    // style={{
+    //   display: "flex",
+    //   alignContent: "center",
+    //   justifyContent: "center",
+    // }}
+    >
+      {children}
+    </footer>
+  );
 }
 
 export default Footer;
