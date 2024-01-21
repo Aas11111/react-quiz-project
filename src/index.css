@@ -65,7 +65,9 @@ body {
   margin-bottom: 4rem;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: center;
+
+  /* justify-content: space-around; */
 }
 
 .error {
@@ -78,7 +80,8 @@ body {
 }
 
 img {
-  width: 14rem;
+  width: 10rem;
+  margin-bottom: 2rem;
 }
 
 h1 {
@@ -305,7 +308,8 @@ footer {
   }
 
   img {
-    width: 10rem;
+    width: 7rem;
+    margin-bottom: 1.7rem;
   }
 
   h1 {
@@ -358,7 +362,8 @@ footer {
   }
 
   img {
-    width: 8rem;
+    width: 5rem;
+    margin-bottom: 1.5rem;
   }
 
   h1 {
@@ -448,7 +453,8 @@ footer {
   }
 
   img {
-    width: 6rem;
+    width: 5rem;
+    margin-bottom: 1.5rem;
   }
 
   h1 {
@@ -538,7 +544,8 @@ footer {
   }
 
   img {
-    width: 5rem;
+    width: 4rem;
+    margin-bottom: 1.4rem;
   }
 
   h1 {
