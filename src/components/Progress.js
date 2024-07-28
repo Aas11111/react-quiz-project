@@ -7,16 +7,7 @@ function Progress({
   answer,
 }) {
   return (
-    <div
-      className="main-progress"
-      // style={{
-      //   display: "flex",
-      //   flexDirection: "column",
-      //   justifyContent: "center",
-      //   alignItems: "center",
-      //   width: "100%",
-      // }}
-    >
+    <div className="main-progress">
       <header className="progress">
         <progress max={numQuestions} value={index + Number(answer !== null)} />
 
